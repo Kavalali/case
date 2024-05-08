@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 520px;
+
+  input {
+    border-radius: 10px;
+    padding: 6px 0px 6px 24px;
+  }
+}
+
+.search {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 5px;
+  }
+}
+
+.searchIcon {
+  margin-left: 4px;
+}

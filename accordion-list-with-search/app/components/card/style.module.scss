@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 760px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  width: 760px;
+  background-color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+
+  div {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 50px;
+  }
+}
+
+.infoButton {
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.iconDown {
+  transform: rotate(90deg);
+  color: black;
+}
+
+.header {
+  display: flex;
+  gap: 98px;
+  justify-content: left;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 600;
+
+  div {
+    width: 90px;
+  }
+}
